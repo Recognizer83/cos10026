@@ -272,8 +272,28 @@ a:hover,.icons a:hover {
 	color: #47403a;
 }
 
-#canariumasperum.card {
-	background-image: url("images/canariumasperum.jpg");
+#casperum.card {
+	background-image: url("images/casperum.jpg");
+	background-size: cover;
+}
+#dcostata.card {
+	background-image: url("images/dcostata.jpg");
+	background-size: cover;
+}
+#sdacryodifolia.card {
+	background-image: url("images/sdacryodifolia.jpg");
+	background-size: cover;
+}
+#pgrandifructus.card {
+	background-image: url("images/pgrandifructus.jpg");
+	background-size: cover;
+}
+#ccaudatum.card {
+	background-image: url("images/ccaudatum.jpg");
+	background-size: cover;
+}
+#dpatentinervia.card {
+	background-image: url("images/dpatentinervia.jpg");
 	background-size: cover;
 }
 #shoreaagamii.index-card {
