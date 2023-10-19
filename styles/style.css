@@ -38,7 +38,7 @@ nav a img {
 }
 .navbar a:hover, .dropdown-content a:hover {
 	background-color: #d6d9d0;
-	color: #47403a;
+	color: black;
 	border-color: #d6d9d0;
 }
 .dropdown-content {
