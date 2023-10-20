@@ -378,7 +378,7 @@ a:hover,.icons a:hover {
 .flip-boxspecies1{
     background-color: transparent;
     width: 300px;
-    height: 450px;
+    height: 400px;
     border: 1px solid #f1f1f1;
     perspective: 1000px;
     display: inline-block;
@@ -391,7 +391,7 @@ a:hover,.icons a:hover {
 .flip-boxspecies{
     background-color: transparent;
     width: 300px;
-    height: 450px;
+    height: 400px;
     border: 1px solid #f1f1f1;
     perspective: 1000px;
     display: inline-block;
@@ -431,7 +431,7 @@ h2 {
     border: 1px solid #f1f1f1;
     perspective: 1000px;
     display: inline-block;
-    margin: 70px 50px 300px 50px
+    margin: 70px 50px 10px 50px
     
   }
 
@@ -440,7 +440,7 @@ h2 {
 }
 
 .flip-box-inner p {
-    font-size: 13px;
+    font-size: 15px;
     color: #47403a;
    
 }
@@ -459,7 +459,7 @@ h2 {
 }
 
 .species {
-    height: 450px;
+    height: 400px;
     width: 300px;
 }
 
