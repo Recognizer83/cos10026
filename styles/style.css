@@ -63,16 +63,6 @@ nav a img {
 .dropdown:hover .dropdown-content {
 	display: block;
 }
-.active {
-	pointer-events: none;
-}
-.active span,.dropdown .active span {
-	border-style: solid;
-	border-color: #d6d9d0;
-	padding: 14px 15px;
-	margin: 0px;
-	border-radius: 10px;
-}
 .upload,.output,.contributions,.indexdesc,.endangered  {
 	text-align: center;
 	border-color: #d6d9d0;
