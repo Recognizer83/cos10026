@@ -378,7 +378,7 @@ a:hover,.icons a:hover {
 .flip-boxspecies1{
     background-color: transparent;
     width: 300px;
-    height: 400px;
+    height: 450px;
     border: 1px solid #f1f1f1;
     perspective: 1000px;
     display: inline-block;
@@ -391,7 +391,7 @@ a:hover,.icons a:hover {
 .flip-boxspecies{
     background-color: transparent;
     width: 300px;
-    height: 400px;
+    height: 450px;
     border: 1px solid #f1f1f1;
     perspective: 1000px;
     display: inline-block;
@@ -440,7 +440,7 @@ h2 {
 }
 
 .flip-box-inner p {
-    font-size: 15px;
+    font-size: 13px;
     color: #47403a;
    
 }
@@ -507,11 +507,13 @@ h2 {
   
 .familys aside {
 	width: 30%;
-	
+	margin-right: 20px;
 	color: black;
 	float: right;
 	font-style: italic;
 	background-color: lightgray;
+    box-sizing: border-box;
+	
 	
 
 }
@@ -556,15 +558,25 @@ height: 300px;
 
 .figureexplore{
 display: inline-block;
-font-size: 14px;
+font-size: 16px;
 color: white;
 }
 
 .containerfigure
 {
+background-color: #d6d9d0;
   display: flex;
   justify-content: center; 
   align-items: center; 
+  border-color: #d6d9d0;
+  border-style: solid;
+  border-radius: 30px;
+  padding: 30px;
+  max-width: 1400px;
+  margin:30px auto;
+  
+  padding: 0px;
+  box-sizing: border-box;
 }
 
 .explore{
