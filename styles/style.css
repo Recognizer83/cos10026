@@ -1175,3 +1175,9 @@ table {
 	height:200px;
 	width: 200px;
 }
+  .title1 {
+    color: rgb(255, 0, 0);
+    font-weight: bold;
+
+    font-size: 18px;
+  }  
