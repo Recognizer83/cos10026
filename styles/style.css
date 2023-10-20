@@ -440,7 +440,7 @@ h2 {
 }
 
 .flip-box-inner p {
-    font-size: 15px;
+    font-size: 13px;
     color: #47403a;
    
 }
@@ -568,8 +568,9 @@ color: white;
 }
 
 .explore{
-padding-left: 20px;
+text-allign: center
 font-size: 40px;
+color: white;
 
 }
 
