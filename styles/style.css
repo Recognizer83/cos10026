@@ -1069,6 +1069,12 @@ input[type="submit"]:hover
     text-align: center;
     color: #47403a;
     letter-spacing: 2px;
+	border-color: #d6d9d0;
+	border-style: solid;
+	border-radius: 30px;
+	margin: 60px;
+	background-color: #fff;
+	padding: 0px; 
 
 }
 
