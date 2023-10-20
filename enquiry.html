@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" >
+	<title>Enquiry</title>
+	<link href="styles/style.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<nav>
+		<a href="index.html"><img src="images/logo.jpg" alt="logo"></a>
+	</nav>
+	<div class="navbar">
+		<a href="identify.html">Identify</a>
+		<a href="contributions.html">Contributions</a>
+		<div class="dropdown">
+			<a href="explore.html">Explore</a>
+			<div class="dropdown-content">
+				<a href="families.html">Family</a>
+				<a href="genera.html">Genus</a>
+				<a href="species.html">Species</a>
+			</div>
+		</div>
+		<a href="enquiry.html">Enquiry</a>
+		<div class="dropdown">
+			<a href="profile.html">Profile</a>
+			<div class="dropdown-content">
+				<a href="eddie.html">Eddie Pui</a>
+				<a href="derrick.html">Derrick Kho</a>
+				<a href="nick.html">Nicholas Lim</a>
+				<a href="ahmad.html">Ahmad Shamsi</a>
+			</div>
+		</div>
+		<a href="login.html">Login / Sign Up</a>
+	</div>
+         <div class="center">
+            <h1 class="head2">Enquiry Form</h1>
+            <form method="post">
+                <div class="txt-field">
+                    <input type="text" id="first" name="first" onkeydown="return /[a-zA-a-zA-Z]/i.test(event.key)" maxlength="25"  required= "required" autocomplete="on">
+                    <span></span>
+                    <label>First Name</label>
+                </div>
+                <div class="txt-field">
+                    <input type="text" id="last" name="last" onkeydown="return /[a-zA-a-zA-Z]/i.test(event.key)" maxlength="25"  required= "required" autocomplete="on">
+                    <span></span>
+                    <label>Last Name</label>
+                </div>
+                <div class="txt-field">
+                    <input type="email" id="email" name="email"   required= "required" autocomplete="on">
+                    <span></span>
+                    <label>Email Address</label>
+                </div>
+                <div class="txt-field">
+                    <input  type="text" id="address" name="address"  maxlength="25"  required= "required" autocomplete="on">
+                    <span></span>
+                    <label>Street Address</label>
+                </div>
+                <div class="txt-field">
+                    <input type="text" id="city" name="city" onkeydown="return /[a-zA-a-zA-Z]/i.test(event.key)" maxlength="20" required= "required"  autocomplete="on">
+                    <span></span>
+                    <label>City/Town</label>
+                </div>
+                <div class="state-con">
+                    <select class="select-box" id="state" name="state" required= "required">
+                        <option value="">Select State</option>
+                        <option value="selangor">Selangor</option>
+                        <option value="kelantan">Kelantan</option>
+                        <option value="negeri sembilan">Negeri Sembilan</option>
+                        <option value="sabah">Sabah</option>
+                        <option value="kedah">Kedah</option>
+                        <option value="terengganu">Terengganu</option>
+                        <option value="sarawak">Sarawak</option>
+                        <option value="perak">Perak</option>
+                        <option value="johor">Johor Bahru</option>
+                        <option value="malacca">Malacca</option>
+                        <option value="pahang">Pahang</option>
+                        <option value="penang">Penang</option>
+                        <option value="perlis">Perlis</option>
+                    </select>
+                </div>
+                <div class="txt-field">
+                    <input  type="text" id="postcode" name="postcode" required pattern="[0-9]{5,5}" minlength="5" maxlength="5"  required= "required" autocomplete="on">
+                    <span></span>
+                    <label>Postcode</label>
+                </div>
+                <div class="txt-field">
+                    <span></span>
+                    <input type="tel" id="phone" name="phone" placeholder="Phone Number" pattern="[0-9]{0,10}" maxlength="10" required="required">
+                    
+                </div>
+                <div class="state-con">
+                    <select class="select-box" id="plant" name="plant" required= "required">
+                        <option value="">Select Plant</option>
+                        <option value="dipterocarpaceae">Dipterocarpaceae</option>
+                        <option value="lauraceae">Lauraceae</option>
+                        <option value="burseraceae">Burseraceae</option>
+                        <option value="myristicaceae">Myristicaceae</option>
+                        <option value="chrysobalanaceae">Chrysobalanaceae</option>
+                        <option value="meliaceae">Meliaceae</option>
+                        <option value="ebenaceae">Ebenaceae</option>
+                    </select>
+                </div>
+            
+
+                
+                <textarea id="issue" name="issue" rows="4" cols="40" placeholder="Write Your Message Here...."></textarea>
+                
+                
+                
+                <input type="submit" value="SUBMIT">
+                <button onclick="window.location.reload();">RELOAD</button>
+                
+                
+            
+            </form>
+
+        </div>
+	<div class="container">
+		<div class="Footer">
+			<div class="col-1">
+				<h3>ABOUT</h3>
+				<a href="identify.html">Identify</a>
+				<a href="contributions.html">Contributor</a>
+				<a href="explore.html">Explore</a>
+				<a href="enquiry.html">Enquiry</a>
+				<a href="login.html">Login / Sign Up</a>
+				<a href="enhancement.html">Enhancement</a>
+			</div>
+			<div class="col-2">
+				<h3>ACKNOWLEDGEMENT</h3>
+				<a href="https://www.w3schools.com/">W3schools Online Web Tutorials</a>
+				<a href="https://fontawesome.com/">Font Awesome</a>
+				<a href="https://www.inaturalist.org/taxa/47126-Plantae">Plant Info</a>
+				<a href="https://www.wikipedia.org/"> Wikipedia</a>
+				<a href="https://www.wallpaperflare.com/"> Background Image</a>
+			</div>
+			<div class="col-3">
+				<h3>CONTACT US</h3>
+				<div class="icons">
+					<a href="mailto:104386199@students.swinburne.edu.my"> Eddie Pui Yung Yew</a>
+					<a href="mailto:101222892@students.swinbunre.edu.my"> Nicholas Lim Yong Juin</a>
+					<a href="mailto:101220388@students.swinbunre.edu.my"> Derrick Kho Hong Liang</a>
+					<a href="mailto:102784791@students.swinburne.edu.my"> Ahmad Shamsi</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
