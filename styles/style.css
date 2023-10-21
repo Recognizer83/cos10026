@@ -1181,3 +1181,15 @@ table {
 
     font-size: 18px;
   }  
+
+
+.imgprof{
+    width: 40%;
+    border-style: groove;
+    padding: 20px;
+    margin-top: 20px;
+    float: none;
+    background-color: #faf8f0;
+    border-radius: 8px;
+}  
+	
