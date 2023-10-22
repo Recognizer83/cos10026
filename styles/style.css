@@ -201,7 +201,7 @@ color: #d6d9d0;
 #profileimg {
 	height: 300px;
 	width: 300px;
-	margin: 0px;
+	margin: 20px;
 	border-radius: 15px;
 }
 .output figure figcaption {
