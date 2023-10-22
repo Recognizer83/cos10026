@@ -157,7 +157,7 @@ color: #d6d9d0;
 .upload h2 {
 	font-weight: 300;
 }
-.upload button,#buttprof {
+.upload button {
 	border-color: #d6d9d0;
 	border-style: solid;
 	border-radius: 10px;
@@ -169,6 +169,20 @@ color: #d6d9d0;
 	color: #47403a;
 	margin-top: 20px;
 }
+#buttprof {
+	border-color: #d6d9d0;
+	border-style: solid;
+	border-radius: 0px 0px 27px 27px;
+	border-width: 4px;
+	background-color: #d6d9d0;
+	padding: 14px 20px;
+	font-size: 30px;
+	font-weight: 500;
+	color: #47403a;
+	margin-top: 30px;
+	display: block;
+}
+	
 .upload button .fa {
 	font-size: 24px;
 	padding-left: 10px;
