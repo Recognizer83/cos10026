@@ -215,7 +215,7 @@ color: #d6d9d0;
 	font-weight: bold;
 }
 .profilesection table {
-	margin: 30px;
+	padding: 30px;
 }
 .output dl {
 	text-align: left;
