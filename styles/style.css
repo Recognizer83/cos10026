@@ -313,14 +313,18 @@ a:hover,.icons a:hover {
 	grid-template-columns: auto auto auto;
 	border-radius: 0px;
 }
-.index-card {
+#profile.flex-container {
+	grid-template-columns: auto auto auto auto;
+	border-radius: 0px;
+}
+.index-card,.profile-card {
 	border-radius: 15px;
 	margin: 30px;
 	height: 400px;
 	width: 300px;
 	overflow: hidden;
 }
-.index-card-info {
+.index-card-info,.profile-card-info {
 	position: relative;
 	width: 100%;
 	height: 400px;
@@ -330,7 +334,7 @@ a:hover,.icons a:hover {
 		translateZ(0);
 	transition: transform 0.5s ease-out;
 }
-.index-card-info:before {
+.index-card-info:before,.profile-card-info:before {
 	z-index: -1;
 	display: block;
 	position: absolute;
@@ -345,17 +349,17 @@ a:hover,.icons a:hover {
 	transition: transform 0.5s ease-out;
 }
 
-.index-card:hover .index-card-info,.index-card:hover .index-card-info:before {
+.index-card:hover .index-card-info,.index-card:hover .index-card-info:before,.profile-card:hover .profile-card-info,.profile-card:hover .profile-card-info:before {
 	transform: translateY(0) translateZ(0);
 }
-.index-card-cont h3 {
+.index-card-cont h3,.profile-card-cont h3 {
 	padding: 27px;
 	margin: 0px;
 	font-size: 27px;
 	font-weight: 500;
 	color: #47403a;
 }
-.index-card-cont p {
+.index-card-cont p,.profile-card-cont p {
 	margin: 0px;
 	padding: 0px 24px;
 	font-size: 18px;
