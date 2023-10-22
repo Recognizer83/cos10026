@@ -331,7 +331,7 @@ a:hover,.icons a:hover {
 }
 #profile.flex-container {
 	grid-template-columns: auto auto auto auto;
-	border-radius: 0px;
+	border-radius: 29px;
 }
 .index-card,.profile-card {
 	border-radius: 15px;
