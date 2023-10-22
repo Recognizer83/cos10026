@@ -199,9 +199,9 @@ color: #d6d9d0;
 	border-radius: 15px;
 }
 #profileimg {
-	height: 300px;
-	width: 300px;
-	margin-top: 30px;
+	height: 400px;
+	width: 500px;
+	margin: 30px;
 	border-radius: 15px;
 }
 .output figure figcaption {
@@ -210,9 +210,12 @@ color: #d6d9d0;
 	padding: 10px 0px;
 }
 .profilesection figure figcaption {
-	margin-top: 30px;
+	margin: 0px;
 	font-size: 30px;
 	font-weight: bold;
+}
+.profilesection table {
+	margin: 30px;
 }
 .output dl {
 	text-align: left;
