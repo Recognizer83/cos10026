@@ -1052,7 +1052,17 @@ textarea {
     color: #47403a;
 }
 
-
+ .submit
+  {
+    width: 30%;
+    height: 50px;
+    border: 1px solid;
+    border-color: #d6d9d0;
+    background: #d6d9d0;
+    border-radius: 20px;
+    font-size: 18px;
+    color: #47403a;
+  }
   input[type="submit"]
   {
     width: 30%;
