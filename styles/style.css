@@ -63,7 +63,7 @@ nav a img {
 .dropdown:hover .dropdown-content {
 	display: block;
 }
-.upload,.output,.contributions,.indexdesc,.endangered  {
+.upload,.output,.contributions,.indexdesc,.endangered,.profilesection {
 	text-align: center;
 	border-color: #d6d9d0;
 	border-style: solid;
