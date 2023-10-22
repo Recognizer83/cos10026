@@ -217,6 +217,8 @@ color: #d6d9d0;
 .profilesection table {
 	padding: 30px;
 	margin-top: 30px;
+	border-radius: 15px;
+	border-style: solid;
 }
 .output dl {
 	text-align: left;
