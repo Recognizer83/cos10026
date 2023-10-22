@@ -301,6 +301,22 @@ a:hover,.icons a:hover {
 	background-image: url("images/albiramis.jpg");
 	background-size: cover;
 }
+#ahmadcard.profile-card {
+	background-image: url("images/ahmad.jpg");
+	background-size: cover;
+}
+#nickcard.profile-card {
+	background-image: url("images/Nick.jpg");
+	background-size: cover;
+}
+#derrickcard.profile-card {
+	background-image: url("images/Derrick.jpg");
+	background-size: cover;
+}
+#eddiecard.profile-card {
+	background-image: url("images/Eddie.jpg");
+	background-size: cover;
+}
 
 #idesc.indexdesc {
 	background-color: transparent;
