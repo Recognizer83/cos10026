@@ -157,7 +157,7 @@ color: #d6d9d0;
 .upload h2 {
 	font-weight: 300;
 }
-.upload button,.profilesection button {
+.upload button,#buttprof {
 	border-color: #d6d9d0;
 	border-style: solid;
 	border-radius: 10px;
@@ -173,7 +173,7 @@ color: #d6d9d0;
 	font-size: 24px;
 	padding-left: 10px;
 }
-.upload button:hover,.profilesection button:hover {
+.upload button:hover,#buttprof:hover {
 	background-color: #fff;
 	border-color: #47403a;
 }
@@ -217,8 +217,6 @@ color: #d6d9d0;
 .profilesection table {
 	padding: 30px;
 	margin-top: 30px;
-	border-radius: 15px;
-	border-style: solid;
 }
 .output dl {
 	text-align: left;
